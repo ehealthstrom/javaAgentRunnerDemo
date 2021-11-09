@@ -11,7 +11,7 @@ public class DynamicAgent {
 
     // Attach agent to the running process
     public static void main(String[] args) throws IOException, AttachNotSupportedException {
-        VirtualMachine vm = VirtualMachine.attach("8064");
+        VirtualMachine vm = VirtualMachine.attach("10476");
         try {
             vm.loadAgent("C:\\src\\Frontend\\TestNavigator\\projects\\javaAgentDemo\\target\\javaAgentDemo-1.0-DemoAgent.jar");
         } catch (AgentLoadException e) {
